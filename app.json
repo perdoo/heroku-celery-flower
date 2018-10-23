@@ -1,0 +1,27 @@
+{
+  "name": "Flower",
+  "description": "Flower is a web tool for monitoring Celery.",
+  "keywords": [
+    "celery",
+    "flower",
+    "monitor"
+  ],
+  "website": "https://github.com/Perdoo/heroku-celery-flower",
+  "repository": "https://github.com/Perdoo/heroku-celery-flower",
+  "env": {
+    "BROKER_URL": {
+      "description": "Default broker URL.",
+      "value": ""
+    },
+    "USER_NAME": {
+      "description": "User name for HTTP authentication to flower",
+      "value": "",
+      "required": true
+    },
+    "PASSWORD": {
+      "description": "Password for HTTP authentication to flower",
+      "value": "",
+      "required": true
+    }
+  }
+}
